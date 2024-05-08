@@ -1,0 +1,18 @@
+# data file
+*.dat
+sample_traces
+*.txt
+*.txt.log
+
+# cscope, ctags
+tags
+cscope.*
+
+# library
+*.a
+
+# object
+*.o
+
+# dump file
+core
