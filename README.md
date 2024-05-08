@@ -2,9 +2,9 @@
 
 Before using Trace Replay for BDBM, preprocess your trace file into the required format:
 
-timestamp     cpuid     sectornum   sectorsize   r/w flag(r:1, w:0)
-20037.038810533 8   648337288   64  1
-20037.038900485 24  959792368   16  1
+timestamp     cpuid     sectornum   sectorsize   r/w flag(r:1, w:0)  
+20037.038810533 8   648337288   64  1  
+20037.038900485 24  959792368   16  1  
 
 
 Once you have the preprocessed trace file:
