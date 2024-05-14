@@ -23,7 +23,7 @@ Once you have the preprocessed trace file:
    ./warm_up_trace YCSB-trace-16.dat warm_up_trace.dat
    ```
    
-3. Install the necessary libraries for BDBM and libmemio. You can find the installation instructions for BDBM at [BDBM address link] and for libmemio at [libmemio address link].
+3. Install the necessary libraries for BDBM and libmemio. You can find the installation instructions for BDBM at [https://github.com/kimikitae/Flash-Translation-Layer] and for libmemio at [https://github.com/kimikitae/Flash-Board-Tester-for-bdbm].
 
 4. If you have modified libmemio, navigate to its directory and clean the project before copying the generated library to the trace-replay directory and the user library location:
 
