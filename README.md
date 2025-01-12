@@ -25,7 +25,7 @@ Once you have the preprocessed trace file:
    
 3. Install the necessary libraries for BDBM and libmemio. You can find the installation instructions for BDBM at [BDBM](https://github.com/kimikitae/Flash-Translation-Layer) and for libmemio at [libmemio](https://github.com/kimikitae/Flash-Board-Tester-for-bdbm).
 
-4. If you have modified libmemio, navigate to its directory and clean the project before copying the generated library to the trace-replay directory and the user library location:
+4. If you have modified libmemio(dir name : Flash-Board-Tester), navigate to its directory and clean the project before copying the generated library to the trace-replay directory and the user library location:
 
    ```sh
    sudo sh ./build.sh install && sudo cp ./project/libmemio.a ~/trace-replay/libmemio.a && sudo cp ./project/libmemio.a /usr/local/include/memio/libmemio.a
